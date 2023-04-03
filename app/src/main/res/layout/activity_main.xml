@@ -317,7 +317,8 @@
     </ScrollView>
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
-        android:background="@color/black"
+        android:background="#3c3c3c"
+        android:backgroundTint="#3c3c3c"
         android:layout_height="?actionBarSize">
 
         <LinearLayout
@@ -333,12 +334,14 @@
             android:layout_height="50dp"
             android:layout_width="0dp"
             android:layout_weight="1"
+            android:background="#3c3c3c"
             android:src="@drawable/home"
             android:layout_gravity="center"/>
 
         <ImageButton
             android:layout_height="50dp"
             android:layout_width="0dp"
+            android:background="#3c3c3c"
             android:src="@drawable/watch"
             android:layout_weight="1"
             android:layout_gravity="center"/>
@@ -347,12 +350,14 @@
             android:layout_height="50dp"
             android:layout_width="0dp"
             android:layout_weight="1"
+            android:background="#3c3c3c"
             android:src="@drawable/chat"
             android:layout_gravity="center"/>
 
         <ImageButton
             android:layout_height="50dp"
             android:layout_width="0dp"
+            android:background="#3c3c3c"
             android:layout_weight="1"
             android:src="@drawable/location"
             android:layout_gravity="center"/>
